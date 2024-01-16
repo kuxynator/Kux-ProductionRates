@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Kux-CoreLib"
+		},
+		{
+			"path": "../Factorio/meta"
+		}
+	],
+	"settings": {
+		"factorio.versions": [
+			{
+				"name": "Stable",
+				"factorioPath": "e:\\Program Files\\Factorio\\1.1\\bin\\x64\\factorio.exe",
+				"active": true
+			}
+		],
+		"Lua.workspace.library": [
+			"e:\\Program Files\\Factorio\\1.1\\data"
+		],
+		"Lua.workspace.userThirdParty": [
+			"c:\\Users\\Kay\\AppData\\Roaming\\Code\\User\\workspaceStorage\\f7587fbff77258b4d08f9ab27038d448\\justarandomgeek.factoriomod-debug\\sumneko-3rd"
+		]
+	}
+}

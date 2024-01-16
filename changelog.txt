@@ -1,0 +1,79 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.2.2
+Date: 2024-01-16
+  Bugfixes:
+    - Workaround for Lua 5.2 bug when comparing large numbers. https://mods.factorio.com/mod/Kux-ProductionRates/discussion/659b35586b84fd901986f463
+---------------------------------------------------------------------------------------------------
+Version: 2.2.1
+Date: 2023-11-26
+  Bugfixes:
+    - Try to restore old config
+    - Fix some migration issues
+---------------------------------------------------------------------------------------------------
+Version: 2.2.0
+Date: 2023-11-25
+  Features:
+    - multiple instances of the production rates view
+    - configurable number of columns
+    - Ingame settings view
+    - auto-hide on map view
+    - simplified toolbar. non frequently used buttons moved to settings
+  Changes:
+    - NOTE because of the new multi instances feature it can happen that the old config is no longer found. sorry for that
+    - ALPHA test for upcoming features (yet invisible for most users)
+    - ALPHA changeable title
+    - ALPHA multiple pages
+  Optimizations:
+    - Insert Row (Ctrl+Left Click) and Delete Row (Ctrl+Right Click) works in complete row content (except the selector button, due API limitations)
+    - "Esc" and "E" support for closing the settings view
+  Info:
+    - requires Kux-CoreLib >= 2.10.0 which contains the new GuiBuilder
+---------------------------------------------------------------------------------------------------
+Version: 2.1.1
+Date: 2023-11-13
+  Features:
+    - Insert Row (Ctrl+Left Click) and Delete Row (Ctrl+Right Click)
+    - Hide the GUI when map view is opened
+---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 2023-10-17
+  Features:
+    - toggle button for auto-hide
+    - selection of signals, so you can select also fluids
+    - Customized icons
+  Changes:
+    - License changed to CC-BY-NC-ND 4.0
+    - Code rewrite
+    - dependency to Kux-CoreLib >= 2.9.1
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 2023-10-13
+  Bugfixes:
+    - Fix localization
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+  Info:
+    - first release afer fork
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2023-04-23
+  Changes:
+    - Initial release
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2023-04-24
+  Changes:
+    - Fix game a crashing bug when turning the mod at runtime
+    - Fix numbers overlapping layout issue
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2023-05-13
+  Changes:
+    - Better, more consistent GUI
+    - Now showing two digits after the decimal point
+    - New button to toggle between total production/consumption rate display and a production-consumption difference display
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2023-05-25
+  Changes:
+    - Fix a multiplayer desync causing issue

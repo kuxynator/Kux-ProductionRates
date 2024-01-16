@@ -1,0 +1,13 @@
+{
+    "name":"Kux-ProductionRates",
+    "version": "2.2.2",
+    "title": "Kuxynator's Production Rates",
+    "author": "kuxynator",
+    "factorio_version": "1.1",
+	"license": "CC BY-NC-ND 4.0",
+    "dependencies": [
+		"base >= 1.1",
+		"Kux-CoreLib >= 2.10.0"
+	],
+    "description": "This mod adds UI that lets you see you production rates for selected items while you play the game. Based on Tiny Production UI. "
+}

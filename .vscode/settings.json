@@ -1,0 +1,26 @@
+{
+	"Lua.runtime.builtin": {
+		"io": "disable",
+		"os": "disable",
+		"math": "disable",
+		"debug": "disable",
+		"coroutine": "disable",
+		"package": "disable"
+	},
+	"Lua.diagnostics.globals": [
+		"__Profiler"
+	],
+	"Lua.runtime.special": {
+		"__object_name": "type"
+	},
+	"Lua.diagnostics.disable": [],
+	"Lua.runtime.plugin": "c:/Users/Kay/AppData/Roaming/Code/User/workspaceStorage/f7587fbff77258b4d08f9ab27038d448/justarandomgeek.factoriomod-debug/sumneko-3rd/factorio/plugin.lua",
+	"Lua.workspace.library": [
+		"e:\\Program Files\\Factorio\\1.1\\data",
+		"c:/Users/Kay/AppData/Roaming/Code/User/workspaceStorage/f7587fbff77258b4d08f9ab27038d448/justarandomgeek.factoriomod-debug/sumneko-3rd/factorio/library",
+		"../Factorio/meta",
+		"../Kux-CoreLib/src/lib"
+	],
+	"Lua.runtime.version": "Lua 5.2",
+	"editor.indentSize": "tabSize"
+}
